@@ -9,7 +9,7 @@ Also is a Makefile is programed to facilite the execution and the use of the com
 This also has programed some built-in functions just as:
 
 ## cd
-### run:
+#### run:
 ```
 run: cd [path]
 ```
@@ -17,7 +17,7 @@ It changes the directory. If "path" is given as argument, it will change the cur
 If it is not given it will change to the path stored in the enviroment variable HOME.
 
 ## umask
-### run:
+#### run:
 ```
 umask [value]
 ```
