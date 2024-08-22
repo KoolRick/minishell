@@ -39,7 +39,7 @@ Then type:
 ```
 and that's it you have your minishel running and ready for testing. :sunglasses:
 
-![](https://github.com/KoolRick/minishell/blob/main/readmeFiles/executingMinishell.mp4?raw=true)
+![](https://github.com/KoolRick/minishell/blob/main/readmeFiles/executingMinishell.mp4)
 
 
 
