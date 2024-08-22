@@ -1,9 +1,43 @@
 # Minishell
-This proyect is about developing a shell. It's a portion of a real shell regularly called "minishell". This poryect is a good
-put in practice some of the most importan call in a operating sysyem like, "fork", "exec", "signal", "pipe", "dup" and more.
+This proyect is about developing a shell. It's a portion of a real shell regularly called "minishell". This proyect is a good
+put in practice some of the most importan calls in a operating sysyem like, "**fork**", "**exec**", "**signal**", "**pipe**", 
+"**dup**" and more.
 
 Also is a Makefile is programed to facilite the execution and the use of the compiler gcc.
 
+
+This also has programed some built-in functions just as:
+
+## cd
+### run:
+```
+run: cd [path]
+```
+It changes the directory. If "path" is given as argument, it will change the current directory to the given "path".
+If it is not given it will change to the path stored in the enviroment variable HOME.
+
+## umask
+### run:
+```
+umask [value]
+```
+
+## time
+```
+
+```
+## read
+```
+
+```
+## limit
+```
+
+```
+## set 
+```
+
+```
 
 
 ## Getting Started
