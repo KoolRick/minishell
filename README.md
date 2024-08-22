@@ -15,11 +15,11 @@ So this script was created to eliminate this manual search avoding long efforts 
 
 ### Prerequisites
 
-You will use it a UNIX operating system.
+* You will use it a UNIX operating system.
 
-Any text editor, built-in in most UNIX system.
+* Any text editor, built-in in most UNIX system.
 
-Gcc compiler, also built-in in most UNIX system.
+* Gcc compiler, also built-in in most UNIX system.
 
 So no worries for any installation :wink:
 
@@ -39,14 +39,8 @@ Then type:
 ```
 and that's it you have your minishel running and ready for testing. :sunglasses:
 
-![](https://github.com/KoolRick/minishell/blob/main/readmeFiles/executingMinishell.mp4)
+![Execution](https://github.com/KoolRick/minishell/blob/main/readmeFiles/executingMinishell.mp4)
 
-
-
-
-## Deployment
-
-These are the domentation of the libraries used.
 
 ## Built With
 
