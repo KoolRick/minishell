@@ -10,7 +10,7 @@ Pipelines (|) are used to connect the output of one command to the input of anot
 using &, enabling multitasking. Additionally, it manages signals like SIGINT and SIGQUIT to handle interruptions, ensuring smooth 
 operation and process control.
 
-This also has programed some built-in functions just as:
+This also has programed some built-in functions just as: cd, umask, time, limit, set, read.
 
 ## cd
 #### run:
