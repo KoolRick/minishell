@@ -3,8 +3,12 @@ This proyect is about developing a shell. It's a portion of a real shell regular
 put in practice some of the most importan calls in a operating sysyem like, "**fork**", "**exec**", "**signal**", "**pipe**", 
 "**dup**" and more.
 
-Also is a Makefile is programed to facilite the execution and the use of the compiler gcc.
+Also, there is a Makefile is programed to facilite the execution and the use of the compiler gcc.
 
+This minishell includes input prompts where users can enter commands, and supports redirections (<, >, >>) for input/output control. 
+Pipelines (|) are used to connect the output of one command to the input of another. It also allows running commands in the background 
+using &, enabling multitasking. Additionally, it manages signals like SIGINT and SIGQUIT to handle interruptions, ensuring smooth 
+operation and process control.
 
 This also has programed some built-in functions just as:
 
@@ -72,11 +76,11 @@ So this script was created to eliminate this manual search avoding long efforts 
 
 * You will use it a UNIX operating system.
 
-* Any text editor, built-in in most UNIX system.
-
 * Gcc compiler, also built-in in most UNIX system.
 
 So no worries for any installation :wink:
+
+_In case you want modify or add functionalities, you will need a text editor, built-in in most UNIX system._
 
 ## Running
 
