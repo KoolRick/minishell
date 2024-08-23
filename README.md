@@ -90,7 +90,7 @@ Type:
 ```
 make
 ```
-this will generate two files, main.o and minishel.
+this will generate two files, **main.o** and **minishel**.
 
 Then type:
 ```
