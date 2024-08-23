@@ -1,11 +1,11 @@
 # Minishell
-This proyect is about developing a shell. It's a portion of a real shell regularly called "minishell". This proyect is a good
-put in practice some of the most importan calls in a operating sysyem like, "**fork**", "**exec**", "**signal**", "**pipe**", 
+This project is about developing a shell. It's a portion of a real shell regularly called "minishell". This project is a good
+put in practice some of the most important calls in a operating system like, "**fork**", "**exec**", "**signal**", "**pipe**", 
 "**dup**" and more.
 
-Also, there is a Makefile is programed to facilite the execution and the use of the compiler gcc.
+Also, there is a Makefile is programed to facilitate the execution and the use of the compiler gcc.
 
-This minishell includes input prompts where users can enter commands, and supports redirections (<, >, >>) for input/output control. 
+This minishell includes input prompts where users can enter commands, and supports redirection (<, >, >>) for input/output control. 
 Pipelines (|) are used to connect the output of one command to the input of another. It also allows running commands in the background 
 using &, enabling multitasking. Additionally, it manages signals like SIGINT and SIGQUIT to handle interruptions, ensuring smooth 
 operation and process control.
@@ -18,7 +18,7 @@ This also has programed some built-in functions just as: cd, umask, time, limit,
 cd [path]
 ```
 It changes the directory. If **path** is given as argument, it will change the current directory to the given **path**.
-If it is not given it will change to the path stored in the enviroment variable HOME.
+If it is not given it will change to the path stored in the environment variable HOME.
 
 ## umask
 #### run:
@@ -39,10 +39,10 @@ the time of the minishell and the children process.
 ## limit
 #### run:
 ```
-limit [resource[maximun]]
+limit [resource[maximum]]
 ```
-It sets maximum resource limits for current process and its child. If **resource** is given but no **maximun**, it will
-show the current limits for **resource**. If both **resource** and **maximun** is given it will set the **maximun** limit to the
+It sets maximum resource limits for current process and its child. If **resource** is given but no **maximum**, it will
+show the current limits for **resource**. If both **resource** and **maximum** is given it will set the **maximum** limit to the
 **resource** given. If none are given it will show all the limits defined.
 
 ## set 
@@ -50,27 +50,22 @@ show the current limits for **resource**. If both **resource** and **maximun** i
 ```
 set [variable[value...]]
 ```
-Assigns value to the enviroment values. If **variable** is given but no **value** it will show the value of **variable** 
+Assigns value to the environment values. If **variable** is given but no **value** it will show the value of **variable** 
 in case both **variable** and **value** are given , it will set **value** to the **variable**. If no arguments are given
-it will show all the enviroment variables and its values.
+it will show all the environment variables and its values.
 
 ## read
 #### run:
 ```
 read variable [variable...]
 ```
-Assigns value to the enviroment values. It modded version of set. This method can assing value to multiple variable in 
+Assigns value to the environment values. It modded version of set. This method can assign value to multiple variable in 
 the same command. It uses spaces and tabulators to divide the token for the variables and values. It will assign the
-first word to the first variable, the second word to the second so goes on until last varible will have the rest of the
+first word to the first variable, the second word to the second so goes on until last variable will have the rest of the
 words.
 
 
 ## Getting Started
-
-This project was inspired to make easier the billing of the consumption of each month of cloud services, in this case AWS. 
-It was needed to extract manually from the pdf invoices to account for some credits AWs gives.
-
-So this script was created to eliminate this manual search avoding long efforts extracting this data, human error and saving time.
 
 ### Prerequisites
 
@@ -90,17 +85,17 @@ Type:
 ```
 make
 ```
-this will generate two files, **main.o** and **minishel**.
+This will generate the files necessary to run the minishell, **main.o** and **minishell**.
 
 Then type:
 ```
-./minishel
+./minishell
 ```
 
 ![Execution](https://github.com/KoolRick/minishell/blob/main/readmeFiles/executingMinishell.gif)
 
-and that's it you have your minishel running and ready for testing. :sunglasses:
+and that's it you have your minishell running and ready for testing. :sunglasses:
 
 ## Built With
 
-* [man](https://man7.org/linux/man-pages/dir_all_alphabetic.html) - This website you'll find all the commands used in this proyect.
+* [man](https://man7.org/linux/man-pages/dir_all_alphabetic.html) - This website you'll find all the commands used in this project.
