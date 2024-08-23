@@ -15,7 +15,7 @@ This also has programed some built-in functions just as: cd, umask, time, limit,
 ## cd
 #### run:
 ```
-run: cd [path]
+cd [path]
 ```
 It changes the directory. If **path** is given as argument, it will change the current directory to the given **path**.
 If it is not given it will change to the path stored in the enviroment variable HOME.
