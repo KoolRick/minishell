@@ -80,7 +80,7 @@ So this script was created to eliminate this manual search avoding long efforts 
 
 So no worries for any installation :wink:
 
-_In case you want modify or add functionalities, you will need a text editor, built-in in most UNIX system._
+_In case you want modify or add functionalities, you will need a text editor, built-in in most UNIX system, and modify the main.c file._
 
 ## Running
 
@@ -96,10 +96,10 @@ Then type:
 ```
 ./minishel
 ```
-and that's it you have your minishel running and ready for testing. :sunglasses:
 
 ![Execution](https://github.com/KoolRick/minishell/blob/main/readmeFiles/executingMinishell.gif)
 
+and that's it you have your minishel running and ready for testing. :sunglasses:
 
 ## Built With
 
